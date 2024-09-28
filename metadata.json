@@ -1,0 +1,10 @@
+{
+	"categories": { "firefox": ["shopping", "bookmarks"] },
+	"requires_payment": false,
+	"homepage": {
+		"en-US": "https://buywisely.com.au/"
+	},
+	"support_email": {
+		"en-US": "andrew@buywisely.com.au"
+	}
+}

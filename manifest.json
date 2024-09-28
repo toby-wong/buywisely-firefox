@@ -1,0 +1,29 @@
+{
+	"action": {
+		"default_icon": "logo.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"js": ["content.js"],
+			"matches": ["\u003Call_urls>"]
+		}
+	],
+	"description": "Discover the best deals with ease. Compare prices across stores and keep an eye on price trends with BuyWisely.",
+	"icons": {
+		"128": "logo.png",
+		"16": "logo.png",
+		"48": "logo.png"
+	},
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAogMITCp5tdjap4j3AGhx8XuDInUKL5HmqFr0sEa2ZErZ0JMwDZixBvKxLiuYOwiDGgm78ZlxfN2cggeNQxVnRh6uW+IZinDS5vZH+JgROdyqMNifzPtC+4mHp63A9vx9bD4uPnv1LVPY82rnxquC2kZ9gU1OAw4sEgVLSzRrtXptPxWhcNzcB2Pdv/V0AG3tsl0yGElrGAymlNuTEbaYyf4rpaco4fi2bKmXKakzD0vw0FniweI7g6MTbdprYXkLswgAa6YKIUgwcRM89qJXlz3BBXTnMJ6lweY1bHfFLmAjDqw6o++5eUdlS6rs+wki/da+pBYv6cpx8hQYJA8S4QIDAQAB",
+	"manifest_version": 3,
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "toby@wong.com.au"
+		}
+	},
+	"name": "BuyWisely: Compare & Track Price History",
+	"version": "0.0.1"
+}
